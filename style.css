@@ -1,0 +1,152 @@
+/* === Base Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background: #0d0b08 url('batmanbg.png') no-repeat center center fixed;
+  background-size: contain; /* This ensures the image fits inside the viewport */
+  background-repeat: no-repeat;
+  background-color: #0d0b08; /* Fallback color */
+  color: #e1d7b6;
+  padding-top: 200px;
+  max-width: 900px;
+  margin: auto;
+  line-height: 1.8;
+}
+
+/* === Fixed Header === */
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent;
+  padding: 2rem;
+  text-align: center;
+  z-index: 1000;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #e6d6a1;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px #000;
+}
+
+header h2 {
+  font-size: 1.2rem;
+  color: #c0ac78;
+  font-style: italic;
+  text-shadow: 1px 1px 6px #000;
+}
+
+/* === Typography === */
+h3 {
+  font-size: 1.3rem;
+  color: #ffdb7d;
+  margin: 2rem 0 1rem;
+  font-style: italic;
+  border-bottom: 1px solid #665c40;
+  padding-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  text-align: justify;
+}
+
+/* === Links === */
+a {
+  color: #f0e68c;
+  text-decoration: none;
+  border-bottom: 1px dotted #cfc163;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: #fff59a;
+  border-bottom: 1px solid #fff59a;
+}
+
+/* === Layout Sections === */
+.page-wrapper {
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  border-radius: 8px;
+}
+
+	.sidebar {
+	margin-top: 2rem;
+	padding: 1.5rem;
+	background-color: rgba(30, 30, 30, 0.8);
+	border-left: 4px solid #e6d6a1;
+	}
+
+	.sidebar {
+		position: absolute;
+		margin: 0px;
+		padding: 0px;
+		top: 435px; 
+		left: 50px;
+		width: 150px;
+		text-align: left;
+	}
+		
+		.sidebar ul {
+			margin-top: 0px;
+			margin-bottom: 10px;
+			margin-left: 50px;
+			margin-right: 0px;
+			padding: 0px;
+		}
+			.sidebar h3{
+				line-height: 2.5ex; 
+				list-style-type: none; 
+				display: block; 
+				padding-top: 5px; 
+				margin-bottom: 5px;
+        }
+
+/* === Footer === */
+footer {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  text-align: center;
+  color: #c5ba97;
+  border-top: 1px solid #3a2f1c;
+}
+
+/* === Extra Style Touches === */
+h3::before {
+  color: #f8e38c;
+}
+
+p:first-of-type::first-letter {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #ffdc91;
+}
+
+/* === Responsive Adjustments === */
+@media screen and (max-width: 768px) {
+  body {
+    padding: 140px 1rem 1rem 1rem;
+  }
+  header {
+    padding: 1rem;
+  }
+  .page-wrapper {
+    padding: 1rem;
+  }
+}
