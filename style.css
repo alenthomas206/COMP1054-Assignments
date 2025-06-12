@@ -12,9 +12,9 @@ html {
 body {
   font-family: 'Georgia', serif;
   background: #0d0b08 url('batmanbg.png') no-repeat center center fixed;
-  background-size: contain; /* This ensures the image fits inside the viewport */
+  background-size: contain; 
   background-repeat: no-repeat;
-  background-color: #0d0b08; /* Fallback color */
+  background-color: #0d0b08; 
   color: #e1d7b6;
   padding-top: 200px;
   max-width: 900px;
@@ -137,15 +137,3 @@ p:first-of-type::first-letter {
   color: #ffdc91;
 }
 
-
-@media screen and (max-width: 768px) {
-  body {
-    padding: 140px 1rem 1rem 1rem;
-  }
-  header {
-    padding: 1rem;
-  }
-  .page-wrapper {
-    padding: 1rem;
-  }
-}
