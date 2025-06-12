@@ -1,4 +1,4 @@
-/* === Base Reset === */
+
 * {
   margin: 0;
   padding: 0;
@@ -48,7 +48,7 @@ header h2 {
   text-shadow: 1px 1px 6px #000;
 }
 
-/* === Typography === */
+
 h3 {
   font-size: 1.3rem;
   color: #ffdb7d;
@@ -64,7 +64,7 @@ p {
   text-align: justify;
 }
 
-/* === Links === */
+
 a {
   color: #f0e68c;
   text-decoration: none;
@@ -77,7 +77,6 @@ a:hover {
   border-bottom: 1px solid #fff59a;
 }
 
-/* === Layout Sections === */
 .page-wrapper {
   padding: 2rem;
   background-color: rgba(0, 0, 0, 0.7);
@@ -85,39 +84,39 @@ a:hover {
   border-radius: 8px;
 }
 
-	.sidebar {
+.sidebar {
 	margin-top: 2rem;
 	padding: 1.5rem;
 	background-color: rgba(30, 30, 30, 0.8);
 	border-left: 4px solid #e6d6a1;
 	}
 
-	.sidebar {
-		position: absolute;
-		margin: 0px;
-		padding: 0px;
-		top: 435px; 
-		left: 50px;
-		width: 150px;
-		text-align: left;
+.sidebar {
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	top: 435px; 
+	left: 50px;
+	width: 150px;
+	text-align: left;
 	}
 		
-		.sidebar ul {
-			margin-top: 0px;
-			margin-bottom: 10px;
-			margin-left: 50px;
-			margin-right: 0px;
-			padding: 0px;
+.sidebar ul {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	margin-right: 0px;
+	padding: 0px;
 		}
-			.sidebar h3{
-				line-height: 2.5ex; 
-				list-style-type: none; 
-				display: block; 
-				padding-top: 5px; 
-				margin-bottom: 5px;
+.sidebar h3{
+	line-height: 2.5ex; 
+	list-style-type: none; 
+	display: block; 
+	padding-top: 5px; 
+	margin-bottom: 5px;
         }
 
-/* === Footer === */
+
 footer {
   margin-top: 2rem;
   padding-top: 1rem;
@@ -127,7 +126,7 @@ footer {
   border-top: 1px solid #3a2f1c;
 }
 
-/* === Extra Style Touches === */
+
 h3::before {
   color: #f8e38c;
 }
@@ -138,7 +137,7 @@ p:first-of-type::first-letter {
   color: #ffdc91;
 }
 
-/* === Responsive Adjustments === */
+
 @media screen and (max-width: 768px) {
   body {
     padding: 140px 1rem 1rem 1rem;
